@@ -2,18 +2,63 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Todd Nestor's Portfolio</title>
+    <meta name="description" content="Todd Nestor is a freelance web developer skilled in PHP, MySQL, JavaScript, CSS, Ruby on Rails, and many other technologies.">
+    <title>Todd Nestor | Web Developer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--
+        <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   </head>
   <body>
     <header>
-      <h1>Todd Nestor</h1>
-      <h2>Full Stack Developer</h2>
+      <a href="index.html" id="logo">
+        <h1>Todd Nestor</h1>
+        <h2>Web Developer</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Portfolio</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <section>
-      <p>Gallery will go here.</p>
-    </section>
-    <footer>
-      <p>&copy; Copyright 2014 Todd Nestor.</p>
-    </footer>
+    <div id="wrapper">
+        <section>
+          <ul id="gallery">
+            <li>
+                <a href="http://www.basepage.org" target="_new"><img src="img/basepage.PNG" alt=""></a>
+                <p><a href="http://www.basepage.org">Basepage.org</a>, a website targetting military personnel built in PHP and utilizing MySQL.</p>
+            </li>
+            <li>
+                <a href="http://www.militarypaycalc.com" target="_new"><img src="img/military.PNG" alt=""></a>
+                <p><a href="http://www.militarypaycalc.com">Military Pay Calc</a>, a salary calculator for US Military personnel which uses PHP, JavaScript, and MySQL.</p>
+            </li>
+            <li>
+                <a href="http://www.myworldtogo.com" target="_new"><img src="img/myworldtogo.PNG" alt=""></a>
+                <p><a href="http://www.myworldtogo.com">My World to Go</a>, a social networking website I have built using Ruby on Rails.  Login as test@example.com using the password "password" if you want to take a look.</p>
+            </li>
+            <li>
+                <a href="http://www.notegarage.com" target="_new"><img src="img/notegarage.PNG" alt=""></a>
+                <p><a href="http://www.notegarage.com">Note Garage</a>, an extremely simple notes app built in Ruby on Rails.</p>
+            </li>
+            <li>
+                <a href="https://rubygems.org/gems/onlinerbytodd" target="_new"><img src="img/rubygem.PNG" alt=""></a>
+                <p><a href="https://rubygems.org/gems/onlinerbytodd">Onliner by Todd</a>, a Ruby on Rails gem I developed to help track users who are online.</p>
+            </li>
+          </ul>
+        </section>
+        <footer>
+          <a href="http://www.facebook.com/toddnestor"><img src="img/facebook-wrap.png" alt="Facebook" class="social-icon"></a>
+          <a href="http://www.twitter.com/@toddnestor"><img src="img/twitter-wrap.png" alt="Twitter" class="social-icon"></a>
+          <a href="https://github.com/toddnestor"><img src="img/github.jpg" alt="Github" class="social-icon"></a>
+          <a href="http://www.linkedin.com/pub/todd-nestor/3a/574/560"><img src="img/li.jpg" alt="LinkedIn" class="social-icon"></a>
+          <p>&copy; Copyright 2014 Todd Nestor.</p>
+        </footer>
+    </div>
   </body>
 </html>
