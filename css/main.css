@@ -23,6 +23,58 @@ img {
 h3 {
   margin: 0 0 1em 0;
 }
+
+.message-sent {
+    color: #f00;
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+form {width: 375px; margin: 34px auto;}
+form tr {
+    border: 1px solid #CCC;
+    background: #f4f3f2;
+}
+form table {width: 375px; margin-bottom: 16px;}
+form th {
+    width: 85px;
+    border-right: 1px solid #CCC;
+    vertical-align: middle;
+    padding: 8px;
+}
+form td {
+    padding: 15px 15px;
+}
+form td select,
+form td input,
+form td textarea {
+    width: 100%;
+}
+form input[type="submit"] {
+    width: 375px;
+    text-align: center;
+    border: 1px solid #8e8e46;
+    background: #9c9f4e;
+    color: #FFF;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;    
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px;
+}
+
+
 /*************************************
  ********    HEADING    **************
  *************************************/

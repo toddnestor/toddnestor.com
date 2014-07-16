@@ -19,6 +19,17 @@
     width: 40%;
     float: right;
   }
+  
+  #tertiary {
+    clear: both;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    width: 50%;
+  }
+  
+  #tertiary h3, #tertiary h4 {
+    text-align: center;
+  }
 
   /****************************************
    ********* Portfolio ********************
