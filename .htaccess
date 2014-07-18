@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^contact.html$ contact.php
+RewriteRule ^contact/$ /contact/contact.php
+RewriteRule ^contact.php$ /contact/ [R=301]

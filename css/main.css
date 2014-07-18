@@ -64,13 +64,12 @@ form td textarea {
 form input[type="submit"] {
     width: 375px;
     text-align: center;
-    border: 1px solid #8e8e46;
-    background: #9c9f4e;
+    border: 1px solid #599a68;
+    background: #6ab47b;
     color: #FFF;
     -webkit-border-radius: 2px;
     border-radius: 2px;    
     font-size: 14px;
-    text-transform: uppercase;
     padding: 14px;
 }
 
@@ -263,4 +262,15 @@ nav a.selected, nav a:hover {
 body {
   background-color: #fff;
   color: #999;
+}
+
+/* wordpress theme stuff */
+#searchsubmit {
+  width: inherit;
+  border-width: 3px;
+  padding: 3px;
+}
+
+h1.page-title, h1.archive-title, h1.entry-title {
+  color: inherit;
 }
