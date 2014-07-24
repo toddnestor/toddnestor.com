@@ -265,12 +265,23 @@ body {
 }
 
 /* wordpress theme stuff */
-#searchsubmit {
+#searchsubmit, .widgetGuts dd input.button {
   width: inherit;
   border-width: 3px;
   padding: 3px;
 }
+.widgetGuts dd {
+  float:left;
+}
+
+.widgetGuts dd {
+  margin-bottom: 30px;
+}
 
 h1.page-title, h1.archive-title, h1.entry-title {
   color: inherit;
+}
+
+article {
+  margin-bottom: 30px;
 }
