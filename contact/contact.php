@@ -42,7 +42,7 @@ session_start();
             <li class="phone"><a href="tel:15034469916">(503) 446-9916</a></li>
             <li class="phone"><a href="tel:+8615210842461">+86 152 1084 2461</a></li>
             <li class="email"><a href="mailto:todd.nestor@gmail.com">todd.nestor@gmail.com</a></li>
-            <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=toddnestor">@toddnestor</a></li>
+            <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=_toddnestor">@_toddnestor</a></li>
           </ul>
         </section>
         <section id="tertiary">
@@ -97,7 +97,7 @@ session_start();
         </section>
         <footer>
           <a href="http://www.facebook.com/toddnestor"><img src="img/facebook-wrap.png" alt="Facebook" class="social-icon"></a>
-          <a href="http://www.twitter.com/@toddnestor"><img src="img/twitter-wrap.png" alt="Twitter" class="social-icon"></a>
+          <a href="http://www.twitter.com/_toddnestor"><img src="img/twitter-wrap.png" alt="Twitter" class="social-icon"></a>
           <a href="https://github.com/toddnestor"><img src="img/github.jpg" alt="Github" class="social-icon"></a>
           <a href="http://www.linkedin.com/pub/todd-nestor/3a/574/560"><img src="img/li.jpg" alt="LinkedIn" class="social-icon"></a>
           <p>&copy; Copyright 2014 Todd Nestor.</p>
