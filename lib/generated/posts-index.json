@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "date": "2026-09-09",
+      "dateDisplay": "September 9, 2026",
+      "time": "09:00",
+      "publishedAt": "2026-09-09T01:00:00Z",
+      "author": "Todd",
+      "excerpt": "Coming soon...",
+      "thumbnail": "https://img.fireimg.com/toddnestor/images/posts/hello-world/coming-soon.png?width=764&quality=high&format=auto",
+      "featuredImage": "https://img.fireimg.com/toddnestor/images/posts/hello-world/coming-soon.png?width=764&quality=high&format=auto",
+      "featuredImageSrcSet": "https://img.fireimg.com/toddnestor/images/posts/hello-world/coming-soon.png?width=320&quality=high&format=auto 320w, https://img.fireimg.com/toddnestor/images/posts/hello-world/coming-soon.png?width=480&quality=high&format=auto 480w, https://img.fireimg.com/toddnestor/images/posts/hello-world/coming-soon.png?width=640&quality=high&format=auto 640w, https://img.fireimg.com/toddnestor/images/posts/hello-world/coming-soon.png?width=768&quality=high&format=auto 768w, https://img.fireimg.com/toddnestor/images/posts/hello-world/coming-soon.png?width=960&quality=high&format=auto 960w, https://img.fireimg.com/toddnestor/images/posts/hello-world/coming-soon.png?width=1280&quality=high&format=auto 1280w",
+      "featuredImageSizes": "(max-width: 764px) 100vw, 764px",
+      "categories": [
+        {
+          "name": "Uncategorized",
+          "href": "/category/uncategorized"
+        }
+      ],
+      "source": "markdown",
+      "html": "<p>Coming soon...</p>"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Uncategorized",
+      "path": "/category/uncategorized",
+      "slug": [
+        "category",
+        "uncategorized"
+      ]
+    }
+  ]
+}

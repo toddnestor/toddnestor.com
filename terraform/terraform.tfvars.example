@@ -1,0 +1,14 @@
+aws_profile = "personal"
+
+repository_url = "https://github.com/toddnestor/toddnestor.com"
+branch_name    = "main"
+domain_name    = "toddnestor.com"
+app_name       = "toddnestor"
+
+environment_variables = {
+  NODE_ENV             = "production"
+  NEXT_PUBLIC_SITE_URL = "https://toddnestor.com"
+}
+
+preview_basic_auth_username = "preview"
+preview_basic_auth_password = "replace-me"
